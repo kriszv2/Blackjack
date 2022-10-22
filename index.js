@@ -1,13 +1,13 @@
 let firstCard, secondCard;
 console.log(firstCard);
-let cardsEl = document.querySelector(".cards");
-let sumEl = document.querySelector(".sum");
-
+const cardsEl = document.querySelector(".cards");
+const sumEl = document.querySelector(".sum");
+const playerEl = document.querySelector(".player");
 let player = {
   name: "Krisztian",
   chips: 500,
 };
-let playerEl = document.querySelector(".player");
+
 playerEl.innerText = player.name + " : $" + player.chips;
 let myCards = [firstCard, secondCard];
 console.log(myCards);
